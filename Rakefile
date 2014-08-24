@@ -12,7 +12,7 @@ require 'motion-cocoapods'
 
 Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings.
-  app.name = 'Subway Momma'
+  app.name = 'Subway Mama'
   app.icons = ['icon.png', 'icon@2x.png']
   app.prerendered_icon = true
 

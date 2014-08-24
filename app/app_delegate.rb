@@ -8,4 +8,8 @@ class AppDelegate
 
     true
   end
+
+  def application(application, didReceiveLocalNotification:notification)
+    puts 'got a notification', notification
+  end
 end

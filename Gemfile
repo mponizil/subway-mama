@@ -4,3 +4,4 @@ gem 'rake'
 # Add your dependencies here:
 
 gem 'motion-cocoapods'
+gem 'motion-csv'
