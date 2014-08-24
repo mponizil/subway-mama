@@ -19,6 +19,7 @@ Motion::Project::App.setup do |app|
   app.files << './app/config.rb'
 
   app.frameworks << 'EventKit'
+  app.frameworks << 'AudioToolbox'
 
   app.pods do
     pod 'ProtocolBuffers'

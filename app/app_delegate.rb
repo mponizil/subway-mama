@@ -10,6 +10,6 @@ class AppDelegate
   end
 
   def application(application, didReceiveLocalNotification:notification)
-    puts 'got a notification', notification
+    @viewController.buzz(notification)
   end
 end
