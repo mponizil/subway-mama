@@ -27,6 +27,13 @@ class ViewController < UIViewController
       UIApplication.sharedApplication.scheduleLocalNotification(notification)
     end
 
+    # For debugging, illustrate a notification 10 seconds after launching
+    notification = UILocalNotification.alloc.init
+    notification.alertBody = "RUN BOY"
+    notification.fireDate = NSDate.dateWithTimeIntervalSinceNow(10)
+    notification.soundName = UILocalNotificationDefaultSoundName
+    UIApplication.sharedApplication.scheduleLocalNotification(notification)
+
   end
 
   def buzz(notification)
